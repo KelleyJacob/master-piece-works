@@ -2,13 +2,9 @@
 
 /*HEADER, MAIN AND FOOTER BY OM TEAM 1-26-16*/
 
-a {
-    
-}
-
 
 body {
-    background:url(images/Fulton_mall-fresno.jpg) no-repeat center center fixed; 
+    background:url(images/background22.jpg) no-repeat center center fixed; 
     background-size: cover;
     margin:0;
     padding:0;
@@ -16,12 +12,16 @@ body {
 
 .displayed { 
     display: block;
+    height: 350;
+    width:150;
     margin-left: auto;
     margin-right: auto;
 }
 
 .expand {
     display: block;
+    height: 600;
+    width:325;
     margin-left: auto;
     margin-right: auto;
 }
@@ -37,37 +37,32 @@ h4 {
     text-align:center;
     color: #cbcc00;
     font-family:'Helvetica', sans-serif;
-    font-size: 48px;
+    font-size: 24px;
 }
 
 p {
     text-align:center;
     color: #d9d9d9;
     font-family:'Helvetica', sans-serif;
-    font-size: 32px; 
-    padding: 40px;
+    font-size: 20px; 
 }
 footer {
     color:#000;
     font-family:Helvetica, sans-serif;
-    font-size:24px;
-    height:20px;
+    font-size:12px;
 }
 
 .button-large {
     font-size:32px;
-    padding:27px 34px;
+    padding:15px 27px;
 }
 .button {
     font: 72px Helvetica, Arial, sans-serif;
     padding: 24px 37px;
     text-decoration:none;
     border-radius: 25%;
-    margin-right:22%;
-    margin-left:22%;
+    margin: 10px 500px 10px 500px;
     display:block;
-    margin-top:22%;
-    margin-bottom:0%;
     text-align:center;
 }
 
